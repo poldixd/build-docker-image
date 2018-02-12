@@ -22,6 +22,13 @@ RUN apk update \
   py-setuptools \
  && rm -rf /var/cache/apk/*
 
+# http://sharp.pixelplumbing.com/en/stable/install/
+RUN apk add \
+  vips-dev \
+  fftw-dev \
+  --no-cache --repository https://dl-3.alpinelinux.org/alpine/edge/testing/ \
+ && rm -rf /var/cache/apk/*
+
 # From: https://github.com/jfloff/alpine-python/
 RUN echo \
   # make some useful symlinks that are expected to exist
