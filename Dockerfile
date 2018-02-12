@@ -16,6 +16,7 @@ RUN apk update \
   g++ \
   libtool \
   nasm \
+  ca-certificates \
   python2 \
   python2-dev \
   py-setuptools \
