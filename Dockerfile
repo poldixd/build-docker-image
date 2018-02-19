@@ -20,6 +20,11 @@ RUN apk update \
   python2 \
   python2-dev \
   py-setuptools \
+  bash \
+  rsync \
+  openssh-client \
+  zip \
+  unzip \
  && rm -rf /var/cache/apk/*
 
 # http://sharp.pixelplumbing.com/en/stable/install/
