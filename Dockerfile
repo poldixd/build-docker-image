@@ -1,5 +1,5 @@
 # https://hub.docker.com/_/node/
-FROM node:9.8.0-alpine
+FROM node:9.10.1-alpine
 
 MAINTAINER Nils Poltmann <dev@nils.li>
 
