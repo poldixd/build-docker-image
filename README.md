@@ -14,6 +14,8 @@ The solution is to install following packages:
 
 Here is the original issue [#168](https://github.com/imagemin/imagemin/issues/168#issuecomment-265545957) on imagemin/imagemin.
 
+You can find the repo on [repo.poltmann.com](https://repo.poltmann.com/nils.poltmann/build-docker-image/).
+
 ## Docker Hub
 
 You can find this image on [Docker Hub](https://hub.docker.com/r/poldixd/build/).
