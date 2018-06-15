@@ -25,6 +25,7 @@ RUN apk update \
   openssh-client \
   zip \
   unzip \
+  ssh-client \
  && rm -rf /var/cache/apk/*
 
 # http://sharp.pixelplumbing.com/en/stable/install/
