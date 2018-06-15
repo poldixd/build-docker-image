@@ -23,6 +23,8 @@ RUN apk update \
   bash \
   rsync \
   openssh-client \
+  bash \
+  ca-certificates \
   zip \
   unzip \
   openssh-client \
