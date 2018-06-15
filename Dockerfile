@@ -22,7 +22,7 @@ RUN apk update \
   py-setuptools \
   bash \
   rsync \
-  openssh-client \
+  openssh \
   bash \
   ca-certificates \
   zip \
